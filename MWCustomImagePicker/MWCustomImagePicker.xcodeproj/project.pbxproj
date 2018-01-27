@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3080FD9A200DE5B000BE6564 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3080FD99200DE5B000BE6564 /* AppDelegate.m */; };
+		3080FDA2200DE5B000BE6564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3080FDA1200DE5B000BE6564 /* Assets.xcassets */; };
+		3080FDA8200DE5B000BE6564 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3080FDA7200DE5B000BE6564 /* main.m */; };
+		3080FDB2200DE5B000BE6564 /* MWCustomImagePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3080FDB1200DE5B000BE6564 /* MWCustomImagePickerTests.m */; };
+		3080FDBD200DE5B000BE6564 /* MWCustomImagePickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3080FDBC200DE5B000BE6564 /* MWCustomImagePickerUITests.m */; };
+		3080FDCC200DE5EA00BE6564 /* MKInagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3080FDCB200DE5EA00BE6564 /* MKInagePickerViewController.m */; };
+		3080FDCF200DE7DC00BE6564 /* CustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3080FDCE200DE7DC00BE6564 /* CustomAlertView.m */; };
+		3080FDD2200DEE8E00BE6564 /* MWPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3080FDD1200DEE8E00BE6564 /* MWPhotoViewController.m */; };
+		3080FDD5200DF19E00BE6564 /* MKCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3080FDD4200DF19E00BE6564 /* MKCollectionViewCell.m */; };
+		3080FDD8200DFA2B00BE6564 /* MWPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 3080FDD7200DFA2B00BE6564 /* MWPhoto.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3080FDAE200DE5B000BE6564 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3080FD8D200DE5B000BE6564 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3080FD94200DE5B000BE6564;
+			remoteInfo = MWCustomImagePicker;
+		};
+		3080FDB9200DE5B000BE6564 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3080FD8D200DE5B000BE6564 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3080FD94200DE5B000BE6564;
+			remoteInfo = MWCustomImagePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3080FD95200DE5B000BE6564 /* MWCustomImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MWCustomImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3080FD98200DE5B000BE6564 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3080FD99200DE5B000BE6564 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3080FDA1200DE5B000BE6564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3080FDA6200DE5B000BE6564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3080FDA7200DE5B000BE6564 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3080FDAD200DE5B000BE6564 /* MWCustomImagePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MWCustomImagePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3080FDB1200DE5B000BE6564 /* MWCustomImagePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWCustomImagePickerTests.m; sourceTree = "<group>"; };
+		3080FDB3200DE5B000BE6564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3080FDB8200DE5B000BE6564 /* MWCustomImagePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MWCustomImagePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3080FDBC200DE5B000BE6564 /* MWCustomImagePickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWCustomImagePickerUITests.m; sourceTree = "<group>"; };
+		3080FDBE200DE5B000BE6564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3080FDCA200DE5EA00BE6564 /* MKInagePickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKInagePickerViewController.h; sourceTree = "<group>"; };
+		3080FDCB200DE5EA00BE6564 /* MKInagePickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKInagePickerViewController.m; sourceTree = "<group>"; };
+		3080FDCD200DE7DC00BE6564 /* CustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAlertView.h; sourceTree = "<group>"; };
+		3080FDCE200DE7DC00BE6564 /* CustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAlertView.m; sourceTree = "<group>"; };
+		3080FDD0200DEE8E00BE6564 /* MWPhotoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWPhotoViewController.h; sourceTree = "<group>"; };
+		3080FDD1200DEE8E00BE6564 /* MWPhotoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWPhotoViewController.m; sourceTree = "<group>"; };
+		3080FDD3200DF19E00BE6564 /* MKCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKCollectionViewCell.h; sourceTree = "<group>"; };
+		3080FDD4200DF19E00BE6564 /* MKCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKCollectionViewCell.m; sourceTree = "<group>"; };
+		3080FDD6200DFA2B00BE6564 /* MWPhoto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWPhoto.h; sourceTree = "<group>"; };
+		3080FDD7200DFA2B00BE6564 /* MWPhoto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWPhoto.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3080FD92200DE5B000BE6564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3080FDAA200DE5B000BE6564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3080FDB5200DE5B000BE6564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3080FD8C200DE5B000BE6564 = {
+			isa = PBXGroup;
+			children = (
+				3080FD97200DE5B000BE6564 /* MWCustomImagePicker */,
+				3080FDB0200DE5B000BE6564 /* MWCustomImagePickerTests */,
+				3080FDBB200DE5B000BE6564 /* MWCustomImagePickerUITests */,
+				3080FD96200DE5B000BE6564 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3080FD96200DE5B000BE6564 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3080FD95200DE5B000BE6564 /* MWCustomImagePicker.app */,
+				3080FDAD200DE5B000BE6564 /* MWCustomImagePickerTests.xctest */,
+				3080FDB8200DE5B000BE6564 /* MWCustomImagePickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3080FD97200DE5B000BE6564 /* MWCustomImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				3080FD98200DE5B000BE6564 /* AppDelegate.h */,
+				3080FD99200DE5B000BE6564 /* AppDelegate.m */,
+				3080FDCA200DE5EA00BE6564 /* MKInagePickerViewController.h */,
+				3080FDCB200DE5EA00BE6564 /* MKInagePickerViewController.m */,
+				3080FDD0200DEE8E00BE6564 /* MWPhotoViewController.h */,
+				3080FDD1200DEE8E00BE6564 /* MWPhotoViewController.m */,
+				3080FDD3200DF19E00BE6564 /* MKCollectionViewCell.h */,
+				3080FDD4200DF19E00BE6564 /* MKCollectionViewCell.m */,
+				3080FDD6200DFA2B00BE6564 /* MWPhoto.h */,
+				3080FDD7200DFA2B00BE6564 /* MWPhoto.m */,
+				3080FDCD200DE7DC00BE6564 /* CustomAlertView.h */,
+				3080FDCE200DE7DC00BE6564 /* CustomAlertView.m */,
+				3080FDA1200DE5B000BE6564 /* Assets.xcassets */,
+				3080FDA6200DE5B000BE6564 /* Info.plist */,
+				3080FDA7200DE5B000BE6564 /* main.m */,
+			);
+			path = MWCustomImagePicker;
+			sourceTree = "<group>";
+		};
+		3080FDB0200DE5B000BE6564 /* MWCustomImagePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3080FDB1200DE5B000BE6564 /* MWCustomImagePickerTests.m */,
+				3080FDB3200DE5B000BE6564 /* Info.plist */,
+			);
+			path = MWCustomImagePickerTests;
+			sourceTree = "<group>";
+		};
+		3080FDBB200DE5B000BE6564 /* MWCustomImagePickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3080FDBC200DE5B000BE6564 /* MWCustomImagePickerUITests.m */,
+				3080FDBE200DE5B000BE6564 /* Info.plist */,
+			);
+			path = MWCustomImagePickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3080FD94200DE5B000BE6564 /* MWCustomImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3080FDC1200DE5B000BE6564 /* Build configuration list for PBXNativeTarget "MWCustomImagePicker" */;
+			buildPhases = (
+				3080FD91200DE5B000BE6564 /* Sources */,
+				3080FD92200DE5B000BE6564 /* Frameworks */,
+				3080FD93200DE5B000BE6564 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MWCustomImagePicker;
+			productName = MWCustomImagePicker;
+			productReference = 3080FD95200DE5B000BE6564 /* MWCustomImagePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3080FDAC200DE5B000BE6564 /* MWCustomImagePickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3080FDC4200DE5B000BE6564 /* Build configuration list for PBXNativeTarget "MWCustomImagePickerTests" */;
+			buildPhases = (
+				3080FDA9200DE5B000BE6564 /* Sources */,
+				3080FDAA200DE5B000BE6564 /* Frameworks */,
+				3080FDAB200DE5B000BE6564 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3080FDAF200DE5B000BE6564 /* PBXTargetDependency */,
+			);
+			name = MWCustomImagePickerTests;
+			productName = MWCustomImagePickerTests;
+			productReference = 3080FDAD200DE5B000BE6564 /* MWCustomImagePickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3080FDB7200DE5B000BE6564 /* MWCustomImagePickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3080FDC7200DE5B000BE6564 /* Build configuration list for PBXNativeTarget "MWCustomImagePickerUITests" */;
+			buildPhases = (
+				3080FDB4200DE5B000BE6564 /* Sources */,
+				3080FDB5200DE5B000BE6564 /* Frameworks */,
+				3080FDB6200DE5B000BE6564 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3080FDBA200DE5B000BE6564 /* PBXTargetDependency */,
+			);
+			name = MWCustomImagePickerUITests;
+			productName = MWCustomImagePickerUITests;
+			productReference = 3080FDB8200DE5B000BE6564 /* MWCustomImagePickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3080FD8D200DE5B000BE6564 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = YiJu;
+				TargetAttributes = {
+					3080FD94200DE5B000BE6564 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3080FDAC200DE5B000BE6564 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3080FD94200DE5B000BE6564;
+					};
+					3080FDB7200DE5B000BE6564 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3080FD94200DE5B000BE6564;
+					};
+				};
+			};
+			buildConfigurationList = 3080FD90200DE5B000BE6564 /* Build configuration list for PBXProject "MWCustomImagePicker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3080FD8C200DE5B000BE6564;
+			productRefGroup = 3080FD96200DE5B000BE6564 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3080FD94200DE5B000BE6564 /* MWCustomImagePicker */,
+				3080FDAC200DE5B000BE6564 /* MWCustomImagePickerTests */,
+				3080FDB7200DE5B000BE6564 /* MWCustomImagePickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3080FD93200DE5B000BE6564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3080FDA2200DE5B000BE6564 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3080FDAB200DE5B000BE6564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3080FDB6200DE5B000BE6564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3080FD91200DE5B000BE6564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3080FDD5200DF19E00BE6564 /* MKCollectionViewCell.m in Sources */,
+				3080FDA8200DE5B000BE6564 /* main.m in Sources */,
+				3080FDCC200DE5EA00BE6564 /* MKInagePickerViewController.m in Sources */,
+				3080FDD2200DEE8E00BE6564 /* MWPhotoViewController.m in Sources */,
+				3080FDD8200DFA2B00BE6564 /* MWPhoto.m in Sources */,
+				3080FDCF200DE7DC00BE6564 /* CustomAlertView.m in Sources */,
+				3080FD9A200DE5B000BE6564 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3080FDA9200DE5B000BE6564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3080FDB2200DE5B000BE6564 /* MWCustomImagePickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3080FDB4200DE5B000BE6564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3080FDBD200DE5B000BE6564 /* MWCustomImagePickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3080FDAF200DE5B000BE6564 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3080FD94200DE5B000BE6564 /* MWCustomImagePicker */;
+			targetProxy = 3080FDAE200DE5B000BE6564 /* PBXContainerItemProxy */;
+		};
+		3080FDBA200DE5B000BE6564 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3080FD94200DE5B000BE6564 /* MWCustomImagePicker */;
+			targetProxy = 3080FDB9200DE5B000BE6564 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3080FDBF200DE5B000BE6564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3080FDC0200DE5B000BE6564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3080FDC2200DE5B000BE6564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4AR6R8UMH5;
+				INFOPLIST_FILE = MWCustomImagePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dcy.MWCustomImagePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3080FDC3200DE5B000BE6564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4AR6R8UMH5;
+				INFOPLIST_FILE = MWCustomImagePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dcy.MWCustomImagePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3080FDC5200DE5B000BE6564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4AR6R8UMH5;
+				INFOPLIST_FILE = MWCustomImagePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dcy.MWCustomImagePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MWCustomImagePicker.app/MWCustomImagePicker";
+			};
+			name = Debug;
+		};
+		3080FDC6200DE5B000BE6564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4AR6R8UMH5;
+				INFOPLIST_FILE = MWCustomImagePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dcy.MWCustomImagePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MWCustomImagePicker.app/MWCustomImagePicker";
+			};
+			name = Release;
+		};
+		3080FDC8200DE5B000BE6564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4AR6R8UMH5;
+				INFOPLIST_FILE = MWCustomImagePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dcy.MWCustomImagePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MWCustomImagePicker;
+			};
+			name = Debug;
+		};
+		3080FDC9200DE5B000BE6564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4AR6R8UMH5;
+				INFOPLIST_FILE = MWCustomImagePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dcy.MWCustomImagePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MWCustomImagePicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3080FD90200DE5B000BE6564 /* Build configuration list for PBXProject "MWCustomImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3080FDBF200DE5B000BE6564 /* Debug */,
+				3080FDC0200DE5B000BE6564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3080FDC1200DE5B000BE6564 /* Build configuration list for PBXNativeTarget "MWCustomImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3080FDC2200DE5B000BE6564 /* Debug */,
+				3080FDC3200DE5B000BE6564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3080FDC4200DE5B000BE6564 /* Build configuration list for PBXNativeTarget "MWCustomImagePickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3080FDC5200DE5B000BE6564 /* Debug */,
+				3080FDC6200DE5B000BE6564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3080FDC7200DE5B000BE6564 /* Build configuration list for PBXNativeTarget "MWCustomImagePickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3080FDC8200DE5B000BE6564 /* Debug */,
+				3080FDC9200DE5B000BE6564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3080FD8D200DE5B000BE6564 /* Project object */;
+}
